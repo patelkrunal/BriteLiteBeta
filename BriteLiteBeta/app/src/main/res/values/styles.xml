@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar"
+           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#ff24a7a5</item>
+        <item name="android:backgroundStacked">#ff24a7a5</item>
+        <item name="android:backgroundSplit">#ff24a7a5</item>
+    </style>
+
+    <style name="BriteLiteBeta.Spinner" parent="@android:style/Widget.Spinner">
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="BriteLiteBeta.TextView" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+</resources>

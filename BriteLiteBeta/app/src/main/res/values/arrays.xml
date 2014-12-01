@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_facebook_permissions">
+        <item>public_profile</item>
+        <item>user_friends</item>
+    </string-array>
+    <string-array name="day_array">
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+    </string-array>
+    <string-array name="time_array">
+        <item>8am - 9am</item>
+        <item>9am - 10am</item>
+        <item>10am - 11am</item>
+        <item>4pm - 5pm</item>
+        <item>5pm - 6pm</item>
+    </string-array>
+</resources>
