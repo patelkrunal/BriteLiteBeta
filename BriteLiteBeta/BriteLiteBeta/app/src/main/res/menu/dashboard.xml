@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.gw.krunal.britelitebeta.DashboardActivity" >
+
+    <item android:id="@+id/action_photo_share"
+          android:title="@string/action_photo_share"
+          android:icon="@android:drawable/ic_menu_share"
+          android:orderInCategory="90"
+          android:showAsAction="always" />
+    <item android:id="@+id/action_estimate_price"
+          android:title="@string/action_estimate_peice"
+          android:orderInCategory="100"
+          android:showAsAction="never" />
+    <item android:id="@+id/action_subscription"
+          android:title="@string/action_subscription"
+          android:orderInCategory="100"
+          android:showAsAction="never" />
+    <item android:id="@+id/action_service_window"
+          android:title="@string/action_service_window"
+          android:orderInCategory="100"
+          android:showAsAction="never"/>
+    <item android:id="@+id/action_logout"
+          android:title="@string/action_logout"
+          android:orderInCategory="100"
+          android:showAsAction="never" />
+</menu>

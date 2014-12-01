@@ -1,0 +1,8 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_logo"
+    android:layout_gravity="center"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/com_parse_ui_app_logo"
+    android:contentDescription="@string/com_parse_ui_logo_content_description" />
+<!-- From: file:/C:/Users/Mukta/AndroidStudioProjects/BriteLiteBeta/ParseLoginUI/res/layout/com_parse_ui_parse_login_app_logo.xml -->
