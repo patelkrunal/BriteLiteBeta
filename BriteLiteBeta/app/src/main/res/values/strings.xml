@@ -13,11 +13,11 @@
     <string name="action_logout">Logout</string>
     <string name="welcome_message">Welcome</string>
     <string name="Parse_example">Parse Example</string>
-    <string name="facebook_app_id">797340470314180</string>
-    <string name="parse_app_id">dWhNbga0xbjExgSG2mm5VLttaG4sTA2cD5i9KIXY</string>
-    <string name="parse_client_key">uDrZI6mZ8T3Bi7e0Ehw0hH6u5P6OaJevViy17Geq</string>
-    <string name="twitter_consumer_key">PVT2s6olyYDz6lT0BidVeBfUG</string>
-    <string name="twitter_consumer_secret">8Usu4WzxGi3vg7YZ5iiIKf6iwk5bBHIBRWtvrFWdDztqIM18Sk</string>
+    <string name="facebook_app_id"></string>
+    <string name="parse_app_id"></string>
+    <string name="parse_client_key"></string>
+    <string name="twitter_consumer_key"></string>
+    <string name="twitter_consumer_secret"></string>
     <string name="action_service_window">Service Window</string>
     <string name="action_subscription">Subscription</string>
     <string name="action_photo_share">Photo Share</string>
