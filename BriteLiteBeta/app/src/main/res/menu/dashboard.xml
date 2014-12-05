@@ -7,8 +7,8 @@
           android:icon="@android:drawable/ic_menu_share"
           android:orderInCategory="90"
           android:showAsAction="always" />
-    <item android:id="@+id/action_estimate_price"
-          android:title="@string/action_estimate_peice"
+    <item android:id="@+id/action_add_address"
+          android:title="@string/menu_item_add_address"
           android:orderInCategory="100"
           android:showAsAction="never" />
     <item android:id="@+id/action_subscription"

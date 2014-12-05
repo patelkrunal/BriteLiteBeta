@@ -17,9 +17,4 @@
         <item>4pm - 5pm</item>
         <item>5pm - 6pm</item>
     </string-array>
-    <string-array name="drawer_array">
-
-        <item name="add_address">Add Address</item>
-        <item name="subscription">Subscription</item>
-    </string-array>
 </resources>

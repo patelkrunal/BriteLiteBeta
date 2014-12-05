@@ -3,10 +3,14 @@ package edu.gw.krunal.britelitebeta;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,6 +26,7 @@ public class DashboardActivity extends Activity {
     private TextView mWelcomeMessage;
     private String DASHBOARD_TESTING_TAG = "dashboard activity Testing";
     private ProgressBar mProgress;
+    private TextView mProgressBarStatus;
     private TextView mSubscriptionStatus;
     private TextView mAddressStatus;
     private TextView mServiceWindowStatus;
@@ -35,6 +40,10 @@ public class DashboardActivity extends Activity {
     private int PROGRESS_BAR=5;
     private int DEFAULT_PROGRESS_BAR = 1;
     private int PROGRESS_BAR_INCREMENT = 33;
+    private DrawerLayout mDrawerLayout;
+    private ListView mDrawerListView;
+    private String[] mDrawerListViewItem;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +61,19 @@ public class DashboardActivity extends Activity {
         mSubscriptionButton= (Button)findViewById(R.id.subscription_button);
         mAddressButton= (Button) findViewById(R.id.add_address);
         mServiceWindowButton = (Button)findViewById(R.id.service_window_button);
+        mProgressBarStatus =(TextView)findViewById(R.id.progress_bar_status);
+        mDrawerLayout=(DrawerLayout)findViewById(R.id.drawerLayout);
+        mDrawerListView=(ListView)findViewById(R.id.drawerListView);
 
+        mDrawerListViewItem =getResources().getStringArray(R.array.drawer_array);
+
+        mDrawerListView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,mDrawerListViewItem));
+        mDrawerListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                makeToast(mDrawerListViewItem[i]);
+            }
+        });
         //add listeners
         mSubscriptionButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -148,7 +169,10 @@ public class DashboardActivity extends Activity {
         }
         //set the progress bar.
         mProgress.setProgress(PROGRESS_BAR);
-
+        if(PROGRESS_BAR==100)
+            mProgressBarStatus.setText(getResources().getString(R.string.profile_complete_message));
+        else
+            mProgressBarStatus.setText(getResources().getString(R.string.profile_progress_message)+String.valueOf(PROGRESS_BAR)+"%");
     }
 
     @Override
@@ -198,9 +222,9 @@ public class DashboardActivity extends Activity {
                 Intent photoSharingActivityIntent = new Intent(DashboardActivity.this,PhotoSharingActivity.class);
                 startActivity(photoSharingActivityIntent);
                 break;
-            case R.id.action_estimate_price:
-                Intent estimatePriceActivityIntent = new Intent(DashboardActivity.this, EstimatePrice.class);
-                startActivity(estimatePriceActivityIntent);
+            case R.id.action_add_address:
+                Intent addressActivityIntent = new Intent(DashboardActivity.this, AddressActivity.class);
+                startActivity(addressActivityIntent);
                 break;
             case R.id.action_service_window:
                 Intent serviceWindowActivityIntent = new Intent(DashboardActivity.this, ServiceWindowActivity.class);

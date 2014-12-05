@@ -21,12 +21,12 @@
     <color name="com_parse_ui_facebook_login_button">#3B5998</color>
     <color name="com_parse_ui_facebook_login_button_focus">#304F8B</color>
     <color name="com_parse_ui_facebook_login_button_push">#2E4677</color>
-    <color name="com_parse_ui_parse_login_button">#40CCCCCC</color>
-    <color name="com_parse_ui_parse_login_button_focus">#35CCCCCC</color>
-    <color name="com_parse_ui_parse_login_button_push">#30CCCCCC</color>
+    <color name="com_parse_ui_parse_login_button">#ff24a7a5</color>
+    <color name="com_parse_ui_parse_login_button_focus">#ff7da7a4</color>
+    <color name="com_parse_ui_parse_login_button_push">#ff74a7a5</color>
     <color name="com_parse_ui_parse_login_display_text">@android:color/white</color>
-    <color name="com_parse_ui_parse_login_help_button_label">#E0E0E0</color>
-    <color name="com_parse_ui_parse_login_help_button_label_focus">#CCCCCC</color>
+    <color name="com_parse_ui_parse_login_help_button_label">#ff000000</color>
+    <color name="com_parse_ui_parse_login_help_button_label_focus">#ffa2a7a6</color>
     <color name="com_parse_ui_parse_login_help_button_label_push">#AAAAAA</color>
     <color name="com_parse_ui_parse_login_text_hint">#AAAAAA</color>
     <color name="com_parse_ui_twitter_login_button">#2DAAE2</color>
@@ -186,6 +186,7 @@
     <string name="com_parse_ui_facebook_login_button_label">Log in with Facebook</string>
     <string name="com_parse_ui_facebook_login_failed_toast">Facebook login failed</string>
     <string name="com_parse_ui_forgot_password_button_label"><u>Forgot password</u></string>
+    <string name="com_parse_ui_intenet_not_found">Check Your  Internet Connection</string>
     <string name="com_parse_ui_invalid_email_toast">Email is invalid, please correct it and try again</string>
     <string name="com_parse_ui_login_dispatch_user_logged_in">"User logged in, starting: "</string>
     <string name="com_parse_ui_login_dispatch_user_not_logged_in">User not logged in, starting ParseLoginActivity</string>

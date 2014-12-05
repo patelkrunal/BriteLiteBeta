@@ -1277,17 +1277,17 @@ left
             <file
                 path="C:\Users\Mukta\AndroidStudioProjects\BriteLiteBeta\ParseLoginUI\res\values\colors.xml"
                 qualifiers="" >
-                <color name="com_parse_ui_parse_login_help_button_label_focus" >#CCCCCC
+                <color name="com_parse_ui_parse_login_help_button_label_focus" >#ffa2a7a6
                 </color>
                 <color name="com_parse_ui_twitter_login_button" >#2DAAE2
                 </color>
-                <color name="com_parse_ui_parse_login_button" >#40CCCCCC
+                <color name="com_parse_ui_parse_login_button" >#ff24a7a5
                 </color>
                 <color name="com_parse_ui_facebook_login_button_push" >#2E4677
                 </color>
                 <color name="com_parse_ui_parse_login_help_button_label_push" >#AAAAAA
                 </color>
-                <color name="com_parse_ui_parse_login_help_button_label" >#E0E0E0
+                <color name="com_parse_ui_parse_login_help_button_label" >#ff000000
                 </color>
                 <color name="com_parse_ui_twitter_login_button_push" >#2588B5
                 </color>
@@ -1299,9 +1299,9 @@ left
                 </color>
                 <color name="com_parse_ui_facebook_login_button_focus" >#304F8B
                 </color>
-                <color name="com_parse_ui_parse_login_button_push" >#30CCCCCC
+                <color name="com_parse_ui_parse_login_button_push" >#ff74a7a5
                 </color>
-                <color name="com_parse_ui_parse_login_button_focus" >#35CCCCCC
+                <color name="com_parse_ui_parse_login_button_focus" >#ff7da7a4
                 </color>
                 <color name="com_parse_ui_parse_login_text_hint" >#AAAAAA
                 </color>
@@ -1352,6 +1352,8 @@ left
                 <string name="com_parse_ui_name_input_hint" >Name
                 </string>
                 <string name="com_parse_ui_no_username_toast" >Please enter your username
+                </string>
+                <string name="com_parse_ui_intenet_not_found" >Check Your  Internet Connection
                 </string>
                 <string name="com_parse_ui_login_warning_layout_missing_username_field" >Layout missing username field
                 </string>

@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/ParseLoginUI.TextView"
+        android:textColor="@color/com_parse_ui_parse_login_help_button_label"
         android:gravity="center"
         android:text="@string/com_parse_ui_login_help_instructions" />
 

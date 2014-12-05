@@ -20,11 +20,5 @@
         <item name="android:textSize">20sp</item>
     </style>
 
-    <style name="BriteLiteBeta.drawerstyle" parent="">
-        <item name="android:background">#ff24a7a5</item>
-        <item name="android:divider">@null</item>
-        
-    </style>
-
 
 </resources>
