@@ -1,6 +1,6 @@
-BriteLiteBeta
+Brite&Lite: A laundry and dry cleaning service.
 =============
-Brite and Lite is my academic project for a course named "Software Design-Hand held devices" . 
+Brite and Lite(Android Mobile Application) is my academic project for a course named "Software Design-Hand held devices" . 
 
 Brite and Lite is laundry and dry cleaning services offering lucrative subscriptions for its services.
 
