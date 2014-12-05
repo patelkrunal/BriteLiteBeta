@@ -9,6 +9,8 @@ Prominent features:
 - Add Address
 - Add service window preference
 - Select Subscription
+- Photo share
+- Spanish language support
 
 Future Extensions:
 - Payment
